@@ -56,7 +56,7 @@ Source: "bin\lakran-wallet-gui.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; The GUI wallet does not have the "--log-file" command-line option of the CLI wallet and insists to put the .log beside the .exe
 ; so pre-create the file and give the necessary permissions to the wallet to write into it
 ; Flag is "onlyifdoesntexist": We do not want to overwrite an already existing log
-Source: "monero-wallet-gui.log"; DestDir: "{app}"; Flags: onlyifdoesntexist; Permissions: users-modify
+Source: "lakran-wallet-gui.log"; DestDir: "{app}"; Flags: onlyifdoesntexist; Permissions: users-modify
 
 ; Monero CLI wallet
 Source: "bin\lakran-wallet-cli.exe"; DestDir: "{app}"; Flags: ignoreversion
