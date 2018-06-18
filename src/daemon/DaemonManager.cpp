@@ -298,9 +298,9 @@ DaemonManager::DaemonManager(QObject *parent)
     : QObject(parent)
 {
 
-    // Platform depetent path to monerod
+    // Platform depetent path to lakrand
 #ifdef Q_OS_WIN
-    m_monerod = QApplication::applicationDirPath() + "/monerod.exe";
+    m_monerod = QApplication::applicationDirPath() + "/lakrand.exe";
 #elif defined(Q_OS_UNIX)
     m_monerod = QApplication::applicationDirPath() + "/lakrand";
 #endif
