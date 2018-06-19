@@ -1,4 +1,0 @@
-[submodule "monero"]
-	path = monero
-	url = https://github.com/laricoins/lakran
-	ignore = all
