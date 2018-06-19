@@ -166,7 +166,7 @@ bool DaemonManager::stopWatcher(NetworkType::Type nettype) const
             if(counter >= 5) {
                 qDebug() << "Killing it! ";
 #ifdef Q_OS_WIN
-                QProcess::execute("taskkill /F /IM lakrand.exe");
+                QProcess::execute("taskkill /F /IM monerod.exe");
 #else
                 QProcess::execute("pkill monerod");
 #endif
@@ -298,11 +298,11 @@ DaemonManager::DaemonManager(QObject *parent)
     : QObject(parent)
 {
 
-    // Platform depetent path to lakrand
+    // Platform depetent path to monerod
 #ifdef Q_OS_WIN
-    m_monerod = QApplication::applicationDirPath() + "/lakrand.exe";
+    m_monerod = QApplication::applicationDirPath() + "/monerod.exe";
 #elif defined(Q_OS_UNIX)
-    m_monerod = QApplication::applicationDirPath() + "/lakrand";
+    m_monerod = QApplication::applicationDirPath() + "/monerod";
 #endif
 
     if (m_monerod.length() == 0) {
