@@ -97,12 +97,12 @@ elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
 fi
 
 # force version update
-get_tag
-echo "var GUI_VERSION = \"$TAGNAME\"" > version.js
-pushd "$MONERO_DIR"
-get_tag
-popd
-echo "var GUI_MONERO_VERSION = \"$TAGNAME\"" >> version.js
+#get_tag
+#echo "var GUI_VERSION = \"$TAGNAME\"" > version.js
+#pushd "$MONERO_DIR"
+#get_tag
+#popd
+#echo "var GUI_MONERO_VERSION = \"$TAGNAME\"" >> version.js
 
 cd build
 if ! QMAKE=$(find_command qmake qmake-qt5); then
