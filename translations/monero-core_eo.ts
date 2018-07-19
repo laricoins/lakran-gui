@@ -554,8 +554,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minadi per via komputilo helpas plisekurigi la Monero-reton. Ju pli da homoj minas, des mapli atakebla iĝas la reto, kaj ĉiu malgranda helpo utilas. &lt;br&gt; &lt;br&gt;La minado ankaŭ donas al vi etan ŝancon ricevi rekompencon je Moneroj. Via komputilo kreos haketojn, serĉante bloksolvojn. Se vi trovas blokon, vi ricevos la asociitan rekompencon. Bonŝancon!</translation>
+        <source>Mining with your computer helps strengthen the Lakran network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Lakran. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minadi per via komputilo helpas plisekurigi la Lakran-reton. Ju pli da homoj minas, des mapli atakebla iĝas la reto, kaj ĉiu malgranda helpo utilas. &lt;br&gt; &lt;br&gt;La minado ankaŭ donas al vi etan ŝancon ricevi rekompencon je Moneroj. Via komputilo kreos haketojn, serĉante bloksolvojn. Se vi trovas blokon, vi ricevos la asociitan rekompencon. Bonŝancon!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="87"/>
@@ -783,13 +783,13 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Monero</source>
-        <translation>Kun pli da Monero</translation>
+        <source>With more Lakran</source>
+        <translation>Kun pli da Lakran</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Monero</source>
-        <translation>Kun malsufiĉe da Monero</translation>
+        <source>With not enough Lakran</source>
+        <translation>Kun malsufiĉe da Lakran</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="141"/>
@@ -1212,7 +1212,7 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Lakran version: </source>
         <translation>Enkorpigita Monera versio: </translation>
     </message>
 </context>
@@ -1225,8 +1225,8 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation>Ĉi tiu paĝo ebligas vin interagi kun la komuna ringdatumbazo. Tiu datumbazo uziĝos de Monero-monujoj kaj de monujoj el Monero-klonoj kiuj reuzas la Monero-ŝlosilojn.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Lakran wallets as well as wallets from Lakran clones which reuse the Lakran keys.</source>
+        <translation>Ĉi tiu paĝo ebligas vin interagi kun la komuna ringdatumbazo. Tiu datumbazo uziĝos de Lakran-monujoj kaj de monujoj el Lakran-klonoj kiuj reuzas la Lakran-ŝlosilojn.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="110"/>
@@ -1242,12 +1242,12 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;
-To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;
-Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Ĉar ni celas kaŝi kiujn enigojn de Monera transakcio elspeziĝas, neniu tria persono devas kapabli kompreni kiuj enigoj en ringo laŭscie jam elspeziĝis. Tiu kapablo malfortigus la ŝirmefikon de ringsubskriboj. Se iu ekscias ke ĉiuj enigoj, escepte de unu, jam elspeziĝis, tiam la enigo kiu fakte elspeziĝas aperas tuj. Tio nuligus la efekton de ringsubskriboj, unu el la tri plej gravaj privatecŝirmiloj uzitaj en Monero. &lt;br&gt;
-Ekzistas listo de laŭscie elspezitaj enigoj, kiu permesas malhelpi ilian uzadon en transakcioj. Tiun liston bontenas la Monero-projekto, kaj disponeblas ĉe la retejo getmonero.org, vi povas importi ĝin ĉi tien.&lt;br&gt;
-Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuzanta Monero-klonoj) uzante la Monerblokĉen-malakceptilon por krei liston de laŭscie elspezitaj eligoj. &lt;br&gt;
+        <source>In order to obscure which inputs in a Lakran transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Lakran uses.&lt;br&gt;
+To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Lakran project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;
+Alternatively, you can scan the blockchain (and the blockchain of key-reusing Lakran clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Ĉar ni celas kaŝi kiujn enigojn de Monera transakcio elspeziĝas, neniu tria persono devas kapabli kompreni kiuj enigoj en ringo laŭscie jam elspeziĝis. Tiu kapablo malfortigus la ŝirmefikon de ringsubskriboj. Se iu ekscias ke ĉiuj enigoj, escepte de unu, jam elspeziĝis, tiam la enigo kiu fakte elspeziĝas aperas tuj. Tio nuligus la efekton de ringsubskriboj, unu el la tri plej gravaj privatecŝirmiloj uzitaj en Lakran. &lt;br&gt;
+Ekzistas listo de laŭscie elspezitaj enigoj, kiu permesas malhelpi ilian uzadon en transakcioj. Tiun liston bontenas la Lakran-projekto, kaj disponeblas ĉe la retejo getmonero.org, vi povas importi ĝin ĉi tien.&lt;br&gt;
+Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuzanta Lakran-klonoj) uzante la Monerblokĉen-malakceptilon por krei liston de laŭscie elspezitaj eligoj. &lt;br&gt;
 </translation>
     </message>
     <message>
@@ -1313,19 +1313,19 @@ Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuza
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;
-This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;
-If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;
-If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Ĉar ni volas eviti la nuliĝon de la ŝirmefiko de la Moneraj ringsubskriboj, oni evitu elspezon de unu eligo per diversaj ringoj sur diversaj blokĉenoj. Dum tio normale ne gravas, povas fariĝi problemo kiam ŝlosilreuzanta Monero-klono ebligas vin elspezi ekzistantajn eligojn. Tiukaze vi devas prizorgi ke la ekzistantaj eligoj uzas la saman ringoj sur ambaŭ blokĉenoj. &lt;br&gt;
-Tion plenumos aŭtomate Monero kaj ĉiu ŝlosilreuzanta programo kiu ne aktive provas depreni vian privatecon.&lt;br&gt;
-Se vi uzas ankaŭ ŝlosilreuzantan Monero-klonon, kaj se tiu klono ne inkluzivas tiun ŝirmon, vi tamen povas ŝirmi viajn transakciojn. Elspezu unue per la klono, kaj poste aldonu la ringon al tiu paĝo, kiu ebligos sekuran elspezon de via Monero.&lt;br&gt;
-Se vi ne uzas ŝlosilreuzantan Monero-klonon, kiu ne enhavas tiujn sekuraĵojn, vi tiam ne bezonas fari ion ajn, ĉio aŭtomatas.&lt;br&gt;
+        <source>In order to avoid nullifying the protection afforded by Lakran&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Lakran clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;
+This will be done automatically by Lakran and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;
+If you are using a key-reusing Lakran clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Lakran safely.&lt;br&gt;
+If you do not use a key-reusing Lakran clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Ĉar ni volas eviti la nuliĝon de la ŝirmefiko de la Moneraj ringsubskriboj, oni evitu elspezon de unu eligo per diversaj ringoj sur diversaj blokĉenoj. Dum tio normale ne gravas, povas fariĝi problemo kiam ŝlosilreuzanta Lakran-klono ebligas vin elspezi ekzistantajn eligojn. Tiukaze vi devas prizorgi ke la ekzistantaj eligoj uzas la saman ringoj sur ambaŭ blokĉenoj. &lt;br&gt;
+Tion plenumos aŭtomate Lakran kaj ĉiu ŝlosilreuzanta programo kiu ne aktive provas depreni vian privatecon.&lt;br&gt;
+Se vi uzas ankaŭ ŝlosilreuzantan Lakran-klonon, kaj se tiu klono ne inkluzivas tiun ŝirmon, vi tamen povas ŝirmi viajn transakciojn. Elspezu unue per la klono, kaj poste aldonu la ringon al tiu paĝo, kiu ebligos sekuran elspezon de via Lakran.&lt;br&gt;
+Se vi ne uzas ŝlosilreuzantan Lakran-klonon, kiu ne enhavas tiujn sekuraĵojn, vi tiam ne bezonas fari ion ajn, ĉio aŭtomatas.&lt;br&gt;
 </translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Lakran on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation>Tio registras la ringojn kiuj uziĝis por elspezi Moneron sur ŝlosilreuzanta ĉeno, tiel ke la sama ringo uziĝu denove, por malhelpi privatecproblemojn.</translation>
     </message>
     <message>
@@ -1762,7 +1762,7 @@ Se vi ne uzas ŝlosilreuzantan Monero-klonon, kiu ne enhavas tiujn sekuraĵojn, 
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="622"/>
-        <source>Monero sent successfully</source>
+        <source>Lakran sent successfully</source>
         <translation>Sukcese sendis Moneron</translation>
     </message>
     <message>
@@ -1996,12 +1996,12 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Preskaŭ preta - ni agordu kelkajn preferojn por Monero Core</translation>
+        <source>We’re almost there - let’s just configure some Lakran preferences</source>
+        <translation>Preskaŭ preta - ni agordu kelkajn preferojn por Lakran Core</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
+        <source>Kickstart the Lakran blockchain?</source>
         <translation>Ĉu komenci la Moneran blokĉenon?</translation>
     </message>
     <message>
@@ -2016,7 +2016,7 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Lakran instance. However, storing the full blockchain is beneficial to the security of the Lakran network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation>La diskokonservado-reĝimo uzas multe malpli da diskospaco, sed saman kvanton de retkapacito kiel normala Monera nodo. Tamen, konservi la tutan blokĉenon helpas plisekurigi la Monerreton.Se vi uzas aparaton kun malmulte da diskospaco, tiu ĉi opcio taŭgas por vi.</translation>
     </message>
     <message>
@@ -2026,8 +2026,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>La minado sekurigas la Monero-reton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos la minadon kiam via komputilo uzas la kurentprovizon kaj estas senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
+        <source>Mining secures the Lakran network, and also pays a small reward for the work done. This option will let Lakran mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>La minado sekurigas la Lakran-reton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos la minadon kiam via komputilo uzas la kurentprovizon kaj estas senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
     </message>
 </context>
 <context>
@@ -2050,8 +2050,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Por ebligi komunikon kun la Monero-reto, via monujo bezonas konektiĝi kun Monera nodo. Oni rekomendas bonteni vian propran nodon por plej bona privateco.
+        <source>To be able to communicate with the Lakran network your wallet needs to be connected to a Lakran node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>Por ebligi komunikon kun la Lakran-reto, via monujo bezonas konektiĝi kun Monera nodo. Oni rekomendas bonteni vian propran nodon por plej bona privateco.
 &lt;br&gt;&lt;br&gt; Se vi ne povas starigi vian propran nodon, ekzistas la opcio konektiĝi al fora nodo.</translation>
     </message>
     <message>
@@ -2084,8 +2084,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>La programado de Monero estas nur subtenata per donacoj.</translation>
+        <source>Lakran development is solely supported by donations</source>
+        <translation>La programado de Lakran estas nur subtenata per donacoj.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2099,8 +2099,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Por ĉiu transakcio, oni devas pagi malgrandan transakcikoston. Tiu ĉi opcio ebligas aldonan sumon (procento de la baza kosto) al via transakcio por subteni la programadon de Monero. Ekzemple, 50% aŭtomata donaco aldonas 0.0025 XMR al transakcikosto de 0.005 XMR.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Lakran development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Lakran development.</source>
+        <translation>Por ĉiu transakcio, oni devas pagi malgrandan transakcikoston. Tiu ĉi opcio ebligas aldonan sumon (procento de la baza kosto) al via transakcio por subteni la programadon de Lakran. Ekzemple, 50% aŭtomata donaco aldonas 0.0025 XMR al transakcikosto de 0.005 XMR.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2109,7 +2109,7 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Lakran network, and also pays a small reward for the work done. This option will let Lakran mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>La minado sekurigas la Monerreton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos minadon kiam via komputilo estos ŝaltita sed senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
     </message>
 </context>
@@ -2306,8 +2306,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome to Monero!</source>
-        <translation>Bonvenon al Monero!</translation>
+        <source>Welcome to Lakran!</source>
+        <translation>Bonvenon al Lakran!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -2381,8 +2381,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
-        <translation>Bonvenon al Monero!</translation>
+        <source>Welcome to Lakran!</source>
+        <translation>Bonvenon al Lakran!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2687,7 +2687,7 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="788"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
+        <source>Lakran sent successfully: %1 transaction(s) </source>
         <translation>Sukcese sendis Moneron: %1 transakcio(j)</translation>
     </message>
     <message>
@@ -2717,8 +2717,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1285"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Lakran</source>
+        <translation>Lakran</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1441"/>

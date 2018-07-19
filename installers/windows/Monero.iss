@@ -168,11 +168,11 @@ Source: "bin\libiconv-2.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; ICU, International Components for Unicode
 ; After changes for supporting UTF-8 path and file names by using Boost Locale, all those 5
 ; ICU libraries are needed in 0.12.0.0
-Source: "bin\libicudt58.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\libicuin58.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\libicuio58.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\libicutu58.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\libicuuc58.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\libicudt61.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\libicuin61.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\libicuio61.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\libicutu61.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\libicuuc61.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Library for native language support, part of GNU gettext
 Source: "bin\libintl-8.dll"; DestDir: "{app}"; Flags: ignoreversion
@@ -330,7 +330,7 @@ begin
     // Re-build "monero-daemon.bat" according to actual install and blockchain directory used
     SetArrayLength(s, 3);
     s[0] := 'REM Execute the Monero daemon and then stay with window open after it exits';
-    s[1] := '"' + ExpandConstant('{app}\monerod.exe') + '" ' + DaemonFlags('');
+    s[1] := '"' + ExpandConstant('{app}\lakrand.exe') + '" ' + DaemonFlags('');
     s[2] := 'PAUSE';
     SaveStringsToFile(ExpandConstant('{app}\monero-daemon.bat'), s, false); 
   end;
@@ -356,7 +356,7 @@ Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
 ; Sub-folder "Utilities";
 ; Note that Windows 10, unlike Windows 7, ignores such sub-folders completely
 ; and insists on displaying ALL icons on one single level
-Name: "{group}\Utilities\Monero Daemon"; Filename: "{app}\monerod.exe"; Parameters: {code:DaemonFlags}
+Name: "{group}\Utilities\Monero Daemon"; Filename: "{app}\lakrand.exe"; Parameters: {code:DaemonFlags}
 Name: "{group}\Utilities\Read Me"; Filename: "{app}\ReadMe.htm"
 
 ; CLI wallet: Needs a working directory ("Start in:") set in the icon, because with no such directory set
@@ -372,7 +372,7 @@ Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Expl
 Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: "{app}\monero-wallet-gui.log"
 Name: "{group}\Utilities\x (Try Daemon, Exit Confirm)"; Filename: "{app}\monero-daemon.bat"
 Name: "{group}\Utilities\x (Try GUI Wallet Low Graphics Mode)"; Filename: "{app}\start-low-graphics-mode.bat"
-Name: "{group}\Utilities\x (Try Kill Daemon)"; Filename: "Taskkill.exe"; Parameters: "/IM monerod.exe /T /F"
+Name: "{group}\Utilities\x (Try Kill Daemon)"; Filename: "Taskkill.exe"; Parameters: "/IM lakrand.exe /T /F"
 
 ; Desktop icons, optional with the help of the "Task" section
 Name: "{userdesktop}\GUI Wallet"; Filename: "{app}\monero-wallet-gui.exe"; Tasks: desktopicon
